@@ -1,3 +1,7 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .navSection ul li a{
     text-decoration: none;
 }
@@ -32,4 +36,7 @@
     background-position: center right;
     padding-bottom: 70px;
     padding-top: 45px;
+}
+.box h4{
+    font-weight: bold;
 }
