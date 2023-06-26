@@ -16,3 +16,20 @@
     background-color: #1F2B45;
     
 }
+.mainhead1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+.mainhead2{
+    color:#3CC5BE;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+.herosec{
+    background-image: url('./images/heroBack.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center right;
+    padding-bottom: 70px;
+    padding-top: 45px;
+}
