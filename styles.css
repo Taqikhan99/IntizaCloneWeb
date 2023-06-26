@@ -1,0 +1,18 @@
+.navSection ul li a{
+    text-decoration: none;
+}
+.navSection ul{
+    list-style: none;
+}
+
+.btnlogin{
+    background-color: #3CC5BE;
+    color: white !important;
+    font-weight: bold;
+    font-size: 12px;
+    width: 120px;
+}
+.btnlogin:hover{
+    background-color: #1F2B45;
+    
+}
