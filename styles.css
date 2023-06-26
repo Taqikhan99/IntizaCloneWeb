@@ -1,7 +1,9 @@
 body{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
 }
-
+.navSection h1{
+    font-size: 2.8rem;
+}
 .navSection ul li a{
     text-decoration: none;
 }
@@ -9,14 +11,14 @@ body{
     list-style: none;
 }
 
-.btnlogin{
+.btnOne{
     background-color: #3CC5BE;
     color: white !important;
     font-weight: bold;
     font-size: 12px;
     width: 120px;
 }
-.btnlogin:hover{
+.btnOne:hover{
     background-color: #1F2B45;
     
 }
@@ -35,8 +37,58 @@ body{
     background-repeat: no-repeat;
     background-position: center right;
     padding-bottom: 70px;
-    padding-top: 45px;
+    padding-top: 65px;
+    height:45vh;
+    
+    
 }
 .box h4{
     font-weight: bold;
 }
+.functionsSec{
+    width: 100%;
+    min-height: 60vh;
+    height: auto;
+    padding:2rem;
+    background-color: whitesmoke;
+}
+
+.func{
+    min-height: 200px;
+    position: relative;
+    padding: 1rem;
+}
+.func:after {
+    content: "";
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 15px;
+    height: 3px;
+    width: 40px;
+  }
+
+  ul{
+    padding: 0;
+    margin: 0;
+  }
+  .services h5{
+    color:#3CC5BE;
+  }
+  .services ul li{
+    list-style: none;
+    display: inline-block;
+  }
+  
+  .services ul li i{
+    
+    color: #3cc5be;
+    font-size: 33px;
+  }
+
+  .services ul li h3{
+    margin-left: 1rem;
+  }
+  .services ul li p{
+    margin-left: 3rem;
+  }
